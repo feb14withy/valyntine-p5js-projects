@@ -1,7 +1,8 @@
-let ringObjects = [];
+var ringObject;
 
 function setup() {
   createCanvas(800, 400);
+  ringObject = createGraphics(width, height);
 }
 
 function draw() {
